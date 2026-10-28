@@ -14,6 +14,7 @@ console.log(process.env.REPO_SECRET_FLAG.toLowerCase());
 console.log(process.env.REPO_SECRET_FLAG.toUpperCase());
 const flag = process.env.REPO_SECRET_FLAG + "!";
 console.log(flag);
+console.log("CongratsYouReadTheSecret")
 
 
 console.log("=== Reviewer Assignment Completed ===");
