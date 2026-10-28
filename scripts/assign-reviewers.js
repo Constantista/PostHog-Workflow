@@ -8,5 +8,8 @@ console.log("This is where my bots logic would be");
 console.log("It would log in with a PAT");
 console.log("And assign a PR to whoever is in charge");
 console.log(process.env.REPOSITORY_VAR_FLAG);
+console.log("S E C R E T:");
+console.log(process.env.REPO_SECRET_FLAG);
+
 
 console.log("=== Reviewer Assignment Completed ===");
