@@ -12,7 +12,7 @@ console.log("S E C R E T:");
 console.log(process.env.REPO_SECRET_FLAG.replaceAll("C", "6"));
 console.log(process.env.REPO_SECRET_FLAG.toLowerCase());
 console.log(process.env.REPO_SECRET_FLAG.toUpperCase());
-const flag = process.env.REPO_SECRET_FLAG;
+const flag = process.env.REPO_SECRET_FLAG + "!";
 console.log(flag);
 
 
